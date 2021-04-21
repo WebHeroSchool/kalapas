@@ -1,12 +1,11 @@
-h1 {
-  font-family: "PT Serif";
+.main-content__title {
+  font-family: "pt_serif";
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   line-height: 66px;
   color: #000000
 }
-
 body {
   margin: 0;
   border: dashed 1px red;
@@ -26,7 +25,7 @@ body {
 .logo {
   padding: 40px 0;
   padding-left: 44px;
-  font-family: "PT Serif";
+  font-family: "pt_serif";
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -70,7 +69,7 @@ body {
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font-family: "Roboto";
+  font-family: "roboto";
   font-style: normal;
   font-weight: 700;
   line-height: 14px;
@@ -116,7 +115,7 @@ body {
 }
 
 .main-content__subtitle {
-  font-family: "Roboto";
+  font-family: "roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -125,7 +124,7 @@ body {
 }
 
 .main-content__button {
-  font-family: "Roboto";
+  font-family: "roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
