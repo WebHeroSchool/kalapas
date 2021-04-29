@@ -1,5 +1,5 @@
 .main__title {
-  margin: 0 0 40px 0;
+  margin: -5px 0 36px 0;
   font-family: "pt_serifbold";
   font-style: normal;
   font-weight: 800;
@@ -22,13 +22,14 @@ body {
 }
 
 .header {
-  margin: 0 0 130px 0;
+  margin: 0 0 133px 0;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  padding: 40px 0;
+  padding: 38px 0;
+  margin: 2px 0 0 3px;
   padding-left: 44px;
   font-family: "pt_serifbold";
   font-style: normal;
@@ -69,10 +70,12 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  margin-right: -15px;
 }
 
 .menu__item {
   position: relative;
+  padding-top: 7px;
   margin-right: 26px;
   font-family: "robotobold";
   font-style: normal;
@@ -121,16 +124,17 @@ body {
 }
 
 .main {
-  padding: 70px 65% 300px 0;
+  padding: 80px 64% 300px 2px;
+  margin-right: 10px;
   background: top right no-repeat url(img/mainImg.svg);
   background-size: 50%;
 }
 
 .main__subtitle {
-  margin: 0 0 58px 0;
-  font-family: "robotobold";
+  margin: 0 0 59px 0;
+  font-family: "robotomedium";
   font-style: normal;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 22px;
   line-height: 26px;
   color: #000000;
