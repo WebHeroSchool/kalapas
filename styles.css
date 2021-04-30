@@ -9,7 +9,7 @@
 }
 
 .main__title-text_highlight {
-  background: #ECF3FF;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 
 body {
@@ -124,7 +124,7 @@ body {
 }
 
 .main {
-  padding: 80px 64% 300px 2px;
+  padding: 80px 64% 245px 2px;
   margin-right: 10px;
   background: top right no-repeat url(img/mainImg.svg);
   background-size: 50%;
@@ -157,4 +157,9 @@ body {
 
 .main__button:hover {
   opacity: .5;
+}
+
+.main__toch {
+  height: 90px;
+  background: center no-repeat url(img/toch.png);
 }
